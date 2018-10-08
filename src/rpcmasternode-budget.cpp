@@ -58,7 +58,7 @@ Value mnbudget(const Array& params, bool fHelp)
         mnEntries = masternodeConfig.getEntries();
 
         if (params.size() != 7)
-            throw runtime_error("Correct usage is 'mnbudget prepare proposal-name url payment_count block_start pivx_address monthly_payment_pivx'");
+            throw runtime_error("Correct usage is 'mnbudget prepare proposal-name url payment_count block_start totum_address monthly_payment_totum'");
 
         std::string strProposalName = params[1].get_str();
         if (strProposalName.size() > 20)
@@ -134,7 +134,7 @@ Value mnbudget(const Array& params, bool fHelp)
         mnEntries = masternodeConfig.getEntries();
 
         if (params.size() != 8)
-            throw runtime_error("Correct usage is 'mnbudget submit proposal-name url payment_count block_start pivx_address monthly_payment_pivx fee_tx'");
+            throw runtime_error("Correct usage is 'mnbudget submit proposal-name url payment_count block_start totum_address monthly_payment_totum fee_tx'");
 
         // Check these inputs the same way we check the vote commands:
         // **********************************************************

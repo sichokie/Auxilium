@@ -1,0 +1,17 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ca">locale/totum_ca.qm</file>
+        <file alias="da">locale/totum_da.qm</file>
+        <file alias="de">locale/totum_de.qm</file>
+        <file alias="en">locale/totum_en.qm</file>
+        <file alias="en_US">locale/totum_en_US.qm</file>
+        <file alias="es">locale/totum_es.qm</file>
+        <file alias="fr_FR">locale/totum_fr_FR.qm</file>
+        <file alias="it">locale/totum_it.qm</file>
+        <file alias="ja">locale/totum_ja.qm</file>
+        <file alias="pt">locale/totum_pt.qm</file>
+        <file alias="ro_RO">locale/totum_ro_RO.qm</file>
+        <file alias="ru">locale/totum_ru.qm</file>
+        <file alias="zh_TW">locale/totum_zh_TW.qm</file>
+    </qresource>
+</RCC>

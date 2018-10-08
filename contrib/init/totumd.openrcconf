@@ -1,0 +1,26 @@
+# /etc/conf.d/totumd: config file for /etc/init.d/totumd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/totum/totum.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/totumd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/totumd.pid"
+
+# Where to write totumd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/totumd"
+
+# User and group to own totumd process
+#BITCOIND_USER="totum"
+#BITCOIND_GROUP="totum"
+
+# Path to totumd executable
+#BITCOIND_BIN="/usr/bin/totumd"
+
+# Nice value to run totumd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
